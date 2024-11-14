@@ -40,7 +40,3 @@ jobs:
         run: |
           docker build -t deneisha98/devops_demo_assignment:latest .
           docker push deneisha98/devops_demo_assignment:latest
-        env:
-          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-
